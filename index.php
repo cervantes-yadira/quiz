@@ -16,6 +16,18 @@ $f3->route('GET /', function() {
     // render a view page
     $view = new Template();
     echo $view->render('views/home.html');
+});
+
+// survey route
+$f3->route('GET|POST /survey', function($f3) {
+
+    $f3->set('choices', array('one' => 'This midterm is easy',
+        'two' => 'I like midterms',
+        'three' => 'Today is Monday'));
+
+    // render a view page
+    $view = new Template();
+    echo $view->render('views/survey.html');
 
 });
 
