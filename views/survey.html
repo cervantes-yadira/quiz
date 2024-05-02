@@ -15,7 +15,7 @@
 
         <p>Check all that apply:</p>
         <repeat group="{{ @choices }}" key="{{ @short }}" value="{{ @long }}">
-            <label><input type="checkbox" value="{{ @long }}">{{ @long }}</label><br>
+            <label><input type="checkbox" name="options[]" value="{{ @long }}">{{ @long }}</label><br>
         </repeat>
 
         <button type="submit">Submit</button>
