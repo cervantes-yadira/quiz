@@ -1,0 +1,12 @@
+{
+  "name": "yadirace/328/quiz",
+  "authors": [
+    {
+      "name": "Yadira Cervantes",
+      "email": "cervantes.yadira@student.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
